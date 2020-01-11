@@ -1,0 +1,55 @@
+.checkbox_inline {
+
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    margin-right: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+.bd-top{
+    border-top: 1px solid #dee2e6;
+}
+
+.popover{display:none !important; }
+
+.select2-container--default .select2-selection--single {
+    display: block;
+    width: 100% ;
+    height: calc(1.9695rem + 2px);
+    padding: .375rem .75rem;
+    font-size: .813rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.select2-container--default .select2-selection--single:focus {
+    color:#665c70;
+    background-color:#fff;
+    border-color:#a679d2;
+    outline:0;box-shadow:0 0 0 .2rem rgba(102,51,153,.25);
+}
+
+.select2 {
+    width:100%!important;
+    }
+
+.button2 {
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+        outline:none;
+    }
+
+#content-popup{
+    font-family: Poppins !important;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}     
